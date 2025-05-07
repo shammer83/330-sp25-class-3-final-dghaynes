@@ -50,24 +50,25 @@ This project proposes the development of a **full-stack AI-powered chat applicat
 
 ---
 
-# 5. Updated Project Milestones (3-Week Timeline)
+# 5. Project Milestones (3-Week Timeline)
 
-| Week | Phase | Deliverables |
-|------|-------|--------------|
 | **Week 1** | **Setup & Frontend** |  
+
 - Initialize MERN boilerplate (React, Node.js, Express, MongoDB)  
 - Configure Amazon Bedrock access (IAM, credentials, SDK setup)  
 - Build chat UI: input box, message list, send button  
 - Optional: Style with TailwindCSS or Material UI  
-|
+
 | **Week 2** | **Backend & Bedrock Integration** |  
+
 - Create Express backend with `/api/chat` POST route  
 - Integrate Amazon Bedrock SDK and connect to selected LLM  
 - Handle prompt formatting and response parsing  
 - Store chat messages in MongoDB  
 - Build frontend logic to send/receive messages from backend  
-|
-| **Week 3** | **Polish, Testing & Deployment** |  
+
+| **Week 3** | **Polish, Testing & Deployment** |
+
 - Test Bedrock integration with multiple prompts  
 - Add input validation, error handling, and message persistence  
 - Add basic JWT user auth  
@@ -86,5 +87,4 @@ This project proposes the development of a **full-stack AI-powered chat applicat
 - **Deployment**: Vercel/Render (frontend), Railway/Heroku (backend)
 - **AWS Services**: Amazon Bedrock, IAM roles, SDK credentials
 
---
 
